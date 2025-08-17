@@ -173,7 +173,7 @@ a {
   text-align: center;
 }
 .card-fresh {
-  background-image: url(/img/bg-card-1.png);
+  background-image: url(./img/bg-card-1.png);
   width: 1240px;
   height: 520px;
   background-repeat: no-repeat;
@@ -211,10 +211,10 @@ a {
   gap: 40px;
 }
 .card-fresh-2 {
-  background-image: url(/img/bg-card-2.png);
+  background-image: url(./img/bg-card-2.png);
 }
 .card-fresh-3 {
-  background-image: url(/img/bg-card-3.png);
+  background-image: url(./img/bg-card-3.png);
 }
 .sub-headding-health {
   font-weight: 500;
@@ -275,7 +275,7 @@ a {
   justify-content: center;
   margin-top: 80px;
   padding-bottom: 79px;
-  background-image: url(/img/left-bg-health.png), url(/img/right-bg-health.png);
+  background-image: url(./img/left-bg-health.png), url(./img/right-bg-health.png);
   background-repeat: no-repeat;
   background-position: left bottom, right bottom;
 }
@@ -284,8 +284,8 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/img/left-bg-how.png), url(/img/right-bg-how.png),
-    url(/img/osn-centr-bg-how.png);
+  background-image: url(./img/left-bg-how.png), url(./img/right-bg-how.png),
+    url(./img/osn-centr-bg-how.png);
   background-repeat: no-repeat;
   background-position: left 0 top 162px, right 0 bottom 72px, center;
   background-size: auto 550px, 326px 660px, 1492px 1010px;
@@ -320,14 +320,14 @@ a {
   content: "";
   width: 298px;
   height: 94px;
-  background-image: url(/img/Line\ 265.svg);
+  background-image: url(./img/Line\ 265.svg);
   position: absolute;
   left: 227px;
   top: 95px;
   background-size: contain;
 }
 .step:nth-child(even)::after {
-  background-image: url(/img/Line\ 266.svg);
+  background-image: url(./img/Line\ 266.svg);
   left: unset;
   right: 267px;
 }
@@ -379,7 +379,7 @@ a {
   background-color: rgba(5, 107, 83, 1);
   width: 1200px;
   border-radius: 18px;
-  background-image: url(/img/offer-bg.png);
+  background-image: url(./img/offer-bg.png);
   background-repeat: no-repeat;
   background-size: 468px auto;
   background-position: right 32px bottom;
@@ -410,7 +410,7 @@ a {
   font-size: 40px;
   line-height: 46px;
   letter-spacing: -1%;
-  background-image: url(/icons/offer-price-bg.svg);
+  background-image: url(./icons/offer-price-bg.svg);
   background-repeat: no-repeat;
   background-size: 187px 70px;
   padding-bottom: 12px;
@@ -520,12 +520,12 @@ a {
   margin: 0;
 }
 .offer-card-4 {
-  background-image: url(/img/offer-bg-radar.png);
+  background-image: url(./img/offer-bg-radar.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 .offer-card-5 {
-  background-image: url(/img/offer-bg-phone.png);
+  background-image: url(./img/offer-bg-phone.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -538,7 +538,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/img/bg-answer.png);
+  background-image: url(./img/bg-answer.png);
   background-repeat: no-repeat;
 }
 .sub-headding-answer {
