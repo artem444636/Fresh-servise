@@ -14,8 +14,16 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  height: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 a {
   text-decoration: none;
@@ -89,6 +97,12 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(../img/promo-section-top-bg.png),
+    url(../img/promo-section-frouits-bg.png);
+  background-repeat: no-repeat;
+  background-position: right 330px top 60px, bottom center;
+  background-size: auto, 100%;
+  padding-bottom: 145px;
 }
 .headding {
   font-weight: 500;
@@ -100,6 +114,7 @@ a {
   margin-top: 80px;
   margin-bottom: 24px;
   max-width: 1144px;
+  color: rgba(30, 31, 31, 1);
 }
 .sub-headding {
   font-family: Inter;
@@ -163,7 +178,6 @@ a {
   letter-spacing: -0.7%;
 }
 .fresh-zag {
-  margin-top: 160px;
   margin-bottom: 48px;
   font-weight: 500;
   font-style: Medium;
@@ -171,6 +185,9 @@ a {
   line-height: 62px;
   letter-spacing: -2%;
   text-align: center;
+  margin: 0;
+  margin-top: 80px;
+  margin-bottom: 48px;
 }
 .card-fresh {
   background-image: url(../img/bg-card-1.png);
@@ -278,7 +295,7 @@ a {
   background-image: url(../img/left-bg-health.png),
     url(../img/right-bg-health.png);
   background-repeat: no-repeat;
-  background-position: left bottom, right bottom;
+  background-position: left bottom 100px, right bottom;
 }
 .how {
   display: flex;
@@ -375,6 +392,9 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-image: url(../img/offer-bg-klybn.png);
+  background-repeat: no-repeat;
+  background-position: right top 330px;
 }
 .offer-card {
   background-color: rgba(5, 107, 83, 1);
